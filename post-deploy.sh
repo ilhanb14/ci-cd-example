@@ -2,10 +2,10 @@
 # Laravel post-deployment script
 
 # Go to the application directory
-cd ~/www/ilhan/cicd-example-laravel
+cd ~/www/ilhan
 
 # Basic deployment confirmation
-echo "Files deployed successfully to www/ilhan/cicd-example-laravel"
+echo "Files deployed successfully to www/ilhan"
 
 # Check if .env file exists, if not notify to create one
 if [ ! -f .env ]; then
